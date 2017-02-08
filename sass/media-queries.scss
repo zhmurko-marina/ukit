@@ -1,0 +1,130 @@
+@media (min-width: 1200px) {
+  .container {
+    padding: 0 80px;
+  }
+}
+@media (max-width: 1999px) {
+
+}
+
+@media (max-width: 992px) {
+  header{
+    .advantage-list{
+      p{
+        font-size: 18px;
+        margin: 8px 0;
+      }
+    }
+  }
+  .information-wrap {
+    h6 {
+      padding-top: 10%;
+    }
+    p {
+      font-size: 15px;
+    }
+    .free-gift::before {
+      height: 48px;
+      background-size: 48px;
+    }
+    .site-editor::before {
+      height: 48px;
+      background-size: 48px;
+    }
+    .no-code::before {
+      height: 48px;
+      background-size: 48px 38px;
+    }
+    .row {
+      background-color: transparent;
+    }
+    .col-sm-6 {
+      margin-bottom: 20px;
+      background-color: #2a3b56;
+      min-height: 270px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  .information-wrap{
+    .col-sm-6:nth-child(odd){
+      background-color: transparent;
+    }
+    .col-sm-6 {
+      min-height: 200px;
+    }
+  }
+  .instruction-wrap {
+    padding-top: 200px;
+    ol {
+      list-style-type: none;
+      counter-reset: item;
+      h6 {
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 23px;
+      }
+      p {
+        color: #6f7376;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+      }
+      li {
+        position: relative;
+        margin-bottom: 50px;
+      }
+      li{
+        span::after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  button:not(.navbar-toggle and .enter-button){
+    width: 200px !important;
+  }
+  header{
+    h2 {
+      font-size: 40px !important;
+    }
+  }
+  .widgets-wrap {
+    margin-top: -100px;
+    h3 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .widgets {
+      min-width: 50%;
+      span {
+        margin: 0;
+        height: 60px;
+        background-position: center !important;
+        position: relative;
+        display: block;
+
+      }
+    }
+    .widget-vk{
+      margin-left: 0;
+    }
+  }
+  .repeat-wrap{
+    .container{
+      .row{
+        .col-xs-4{
+          min-width: 90% !important;
+        }
+      }
+    }
+  }
+}

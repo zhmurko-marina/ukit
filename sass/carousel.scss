@@ -1,0 +1,45 @@
+.carousel-inner {
+  position: relative;
+  margin-top: 100px;
+  width: 100%;
+  height: 490px;
+  overflow: hidden;
+  .item{
+    img {
+      margin: 0 auto;
+    }
+  }
+}
+.carousel-indicators {
+  width: 214px;
+  height: 32px;
+  left: 58.5%;
+  background-color: #09181f;
+  border-radius: 15px;
+  .active {
+    color: #fff;
+    margin: 0 20px;
+    width: 0;
+    height: 0;
+  }
+  li {
+    color: #466980;
+    text-indent: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    margin: 8px 18px;
+    i {
+      font-size: 20px;
+      font-weight: 100;
+    }
+  }
+}
+
+.carousel-phone-img{
+  margin-top: 120px !important;
+}
+
+.carousel-tablet-img{
+  margin-top: 100px !important;
+}
